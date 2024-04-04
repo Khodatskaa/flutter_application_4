@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'app_localizations.dart'; // Import AppLocalizations
+import 'app_localizations.dart';
 
 class LoginSignUpScreen extends StatelessWidget {
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
@@ -63,7 +63,6 @@ class LoginSignUpScreen extends StatelessWidget {
                 ElevatedButton(
                   onPressed: () {
                     if (_formKey.currentState!.validate()) {
-                      // Handle login logic
                     }
                   },
                   style: ElevatedButton.styleFrom(
@@ -75,7 +74,6 @@ class LoginSignUpScreen extends StatelessWidget {
                 ElevatedButton(
                   onPressed: () {
                     if (_formKey.currentState!.validate()) {
-                      // Handle sign-up logic
                     }
                   },
                   style: ElevatedButton.styleFrom(
@@ -95,7 +93,6 @@ class LoginSignUpScreen extends StatelessWidget {
           children: [
             ElevatedButton(
               onPressed: () {
-                // Change language to English
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.lightBlue,
@@ -105,7 +102,6 @@ class LoginSignUpScreen extends StatelessWidget {
             const SizedBox(width: 8.0),
             ElevatedButton(
               onPressed: () {
-                // Change language to Spanish
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.lightBlue,

@@ -33,6 +33,6 @@ class AppLocalizations {
   };
 
   String? translate(String key) {
-    return _localizedValues[locale?.languageCode ?? 'en']?[key]; // Change here
+    return _localizedValues[locale?.languageCode ?? 'en']?[key];
   }
 }
